@@ -1,0 +1,4 @@
+include 'SparkPractice'
+include 'HadoopPractice'
+
+rootProject.name = 'BigdataPractice'
