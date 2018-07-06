@@ -1,0 +1,23 @@
+archivesBaseName = 'HadoopPractice'
+
+dependencies {
+
+    compile(
+            [group: 'org.apache.hive', name: 'hive-metastore', version: hiveVersion],
+            [group: 'org.apache.hive', name: 'hive-serde', version: hiveVersion],
+            [group: 'org.apache.hive', name: 'hive-common', version: hiveVersion],
+            [group: 'org.apache.hive', name: 'hive-service', version: hiveVersion],
+            [group: 'org.apache.hive', name: 'hive-shims', version: hiveVersion],
+            [group: 'org.apache.hive', name: 'hive-jdbc', version: hiveVersion],
+            [group: 'org.apache.hive', name: 'hive-exec', version: hiveVersion],
+            [group: 'org.apache.hadoop', name: 'hadoop-client', version: hadoopVersion],
+            [group: 'org.apache.hadoop', name: 'hadoop-hdfs', version: hadoopVersion],
+            [group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-core', version: hadoopVersion],
+            [group: 'org.apache.hadoop', name: 'hadoop-common', version: hadoopVersion],
+            [group: 'org.apache.hadoop', name: 'hadoop-annotations', version: hadoopVersion],
+            [group: 'org.apache.hadoop', name: 'hadoop-minicluster', version: hadoopVersion],
+            [group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-core', version: hadoopVersion],
+    )
+
+
+}
